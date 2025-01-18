@@ -2,7 +2,7 @@ title: Zeyu Xu
 # tagline: Here is personal website of Hanlin Cai. Powered by Jekyll, based on the Minimal Mistakes theme.
 # description: Two roads diverged in woods, I took the one less traveled by.
 #Comment out url when working locally to resolve base urls correctly
-url: https://caihanlin.com
+url: https://zeyu-rocket.github.io/
 
 # Owner/author information
 owner:
@@ -36,15 +36,15 @@ google_verify: "SkiyuGpJOKT74vv5GmXLvYXXDkXy4v8VWPtbelYz3Hs"
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About Me
+  - title: 关于我
     url: /
-  - title: Teams
-    url: /teams/
-  - title: Publications
+  # - title: Teams
+  #   url: /teams/
+  - title: 文章
     url: /publications/
-  - title: Awards
+  - title: 项目
     url: /awards/
-  - title: Hobbies
+  - title: 摄影
     url: /hobbies/
   - title: Blogs
     url: /blogs/
