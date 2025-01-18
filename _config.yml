@@ -10,7 +10,7 @@ owner:
   avatar: zeyu.jpg
   # bio: Two roads diverged in woods, I took the one less traveled by.
   email: zeyu.xu.work@qq.com
-  cv: https://caihanlin.com/file/CV-HanlinCAI.pdf
+  cv: https://zeyu-rocket.github.io/file/CV-ZeyuXu.pdf
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   # twitter: lancecai2002
   github: zeyu-rocket
@@ -46,8 +46,8 @@ links:
     url: /awards/
   - title: 摄影
     url: /hobbies/
-  - title: Blogs
-    url: /blogs/
+  # - title: Blogs
+  #   url: /blogs/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: China/Beijing
