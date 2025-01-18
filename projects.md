@@ -4,7 +4,7 @@ permalink: /projects/index.html
 title: Projects
 ---
 
-> Lastest Update: 8th Jan 2024 &nbsp; [中文版本 (Chinese Version)](https://caihanlin.com/file/awards-zh/)
+<!-- > Lastest Update: 8th Jan 2024 &nbsp; [中文版本 (Chinese Version)](https://caihanlin.com/file/awards-zh/)
 
 ## Scholarships
 
@@ -50,4 +50,4 @@ title: Projects
 - [April 2022：Top 10 Best Volunteers (Only 10/30000) of Fuzhou University](https://mp.weixin.qq.com/s?__biz=MjM5ODIyNzIyMg==&mid=2652762645&idx=1&sn=3d58cdfb0fb26db7a2b82aee9726b172&chksm=bd24ae6c8a53277a8910f7336758100ec4d4c4f19b8de74c4ccebc9a95ace364c0faf2b2c0b3&scene=27)
 - Sep 2021 - Sep 2022：Deputy President of Volunteer Department, Youth League Committee of FZU
 - July 2021：Outstanding volunteer at the 44th session of the World Heritage Committee
-- April 2021：Outstanding volunteer at the 4th Digital China Summit<br>
+- April 2021：Outstanding volunteer at the 4th Digital China Summit<br> -->
