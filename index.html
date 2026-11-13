@@ -1,59 +1,147 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>徐泽宇 | Zeyu Xu</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f7f3">
+  <meta name="description" content="徐泽宇的风光摄影作品集。从雪峰到沙丘，收录山野、湖岸与暮色中的光。">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="徐泽宇 · 风光摄影">
+  <meta property="og:description" content="徐泽宇的风光摄影作品集">
+  <meta property="og:url" content="https://zeyu-rocket.github.io/">
+  <meta property="og:image" content="https://zeyu-rocket.github.io/assets/photos/snow-peak-small.webp">
+  <title>徐泽宇 · 风光摄影 | Zeyu Xu Photography</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/gallery.js" defer></script>
 </head>
-<body>
-    <nav class="navbar">
-        <div class="nav-brand">Zeyu Xu</div>
-        <ul class="nav-links">
-            <li><a href="index.html" class="active">首页</a></li>
-            <li><a href="projects/index.html">项目</a></li>
-            <li><a href="photography/index.html">摄影</a></li>
-            <li><a href="about.html">关于</a></li>
-        </ul>
-    </nav>
+<body id="top">
+  <header class="site-header wrap">
+    <a class="wordmark" href="#top" aria-label="徐泽宇，回到首页">
+      <span class="name">徐泽宇</span>
+      <span class="roman-name" lang="en">Zeyu Xu</span>
+    </a>
+    <nav aria-label="主导航"><a class="nav-link" href="#gallery">风光作品</a></nav>
+  </header>
 
-    <header class="hero">
-        <div class="hero-content">
-            <h1>你好，我是徐泽宇</h1>
-            <p class="subtitle">信号运维工程师 / 业余摄影师 / 创客</p>
-            <p class="description">记录技术探索与光影瞬间</p>
-            <div class="hero-buttons">
-                <a href="projects/index.html" class="btn btn-primary">查看项目</a>
-                <a href="photography/index.html" class="btn btn-secondary">浏览摄影</a>
-            </div>
-        </div>
-    </header>
+  <main>
+    <figure class="cover wrap">
+      <a class="cover-link photo-link" href="assets/photos/snow-peak.webp" data-title="雪峰金光" aria-label="放大观看：雪峰金光">
+        <img src="assets/photos/snow-peak.webp"
+          srcset="assets/photos/snow-peak-small.webp 1200w, assets/photos/snow-peak.webp 2440w"
+          sizes="(max-width: 1504px) 96vw, 1440px"
+          width="2440" height="1627" fetchpriority="high"
+          alt="金色阳光落在积雪的尖峰上，云雾掠过山脊">
+        <span class="cover-caption">雪峰金光</span>
+        <span class="cover-expand" aria-hidden="true">↗</span>
+      </a>
+    </figure>
 
-    <section class="featured">
-        <h2>精选内容</h2>
-        <div class="grid">
-            <div class="card">
-                <div class="card-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
-                <h3>技术项目</h3>
-                <p>物联网、信号系统、3D打印等软硬件项目</p>
-                <a href="projects/index.html">了解更多 →</a>
-            </div>
-            <div class="card">
-                <div class="card-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
-                <h3>摄影作品</h3>
-                <p>城市风光、人文纪实、自然风景</p>
-                <a href="photography/index.html">浏览画廊 →</a>
-            </div>
-        </div>
+    <section class="gallery wrap" id="gallery" aria-labelledby="gallery-title">
+      <div class="section-heading">
+        <h1 id="gallery-title">风光作品</h1>
+        <span class="gallery-location">内蒙古</span>
+      </div>
+      <div class="gallery-grid">
+        <figure class="work work-wide">
+          <a class="photo-link" href="assets/photos/dune-caravan.webp" data-title="沙丘远行" aria-label="放大观看：沙丘远行">
+            <img src="assets/photos/dune-caravan-small.webp"
+              srcset="assets/photos/dune-caravan-small.webp 980w, assets/photos/dune-caravan.webp 2000w"
+              sizes="(max-width: 690px) 94vw, (max-width: 1540px) 63vw, 940px" width="2000" height="1335" loading="lazy" decoding="async"
+              alt="暮色下的沙丘层叠起伏，一队驼影沿着沙脊前行">
+          </a>
+          <figcaption>沙丘远行</figcaption>
+        </figure>
+        <figure class="work work-tall">
+          <a class="photo-link" href="assets/photos/dune-silhouettes.webp" data-title="沙脊剪影" aria-label="放大观看：沙脊剪影">
+            <img src="assets/photos/dune-silhouettes-small.webp"
+              srcset="assets/photos/dune-silhouettes-small.webp 654w, assets/photos/dune-silhouettes.webp 1334w"
+              sizes="(max-width: 690px) 46vw, (max-width: 1540px) 31vw, 460px" width="1334" height="2000" loading="lazy" decoding="async"
+              alt="两道剪影牵手走过沙脊，前景是斜阳照出的沙纹">
+          </a>
+          <figcaption>沙脊剪影</figcaption>
+        </figure>
+        <figure class="work work-tall">
+          <a class="photo-link" href="assets/photos/lake.webp" data-title="湖上的风" aria-label="放大观看：湖上的风">
+            <img src="assets/photos/lake-small.webp"
+              srcset="assets/photos/lake-small.webp 654w, assets/photos/lake.webp 1201w"
+              sizes="(max-width: 690px) 46vw, (max-width: 1540px) 31vw, 460px" width="1201" height="1800" loading="lazy" decoding="async"
+              alt="蓝色湖面泛起波纹，远岸的风力发电机伸入浅蓝色天空">
+          </a>
+          <figcaption>湖上的风</figcaption>
+        </figure>
+        <figure class="work work-wide">
+          <a class="photo-link" href="assets/photos/dune-ascent.webp" data-title="向沙丘上走" aria-label="放大观看：向沙丘上走">
+            <img src="assets/photos/dune-ascent-small.webp"
+              srcset="assets/photos/dune-ascent-small.webp 980w, assets/photos/dune-ascent.webp 2000w"
+              sizes="(max-width: 690px) 94vw, (max-width: 1540px) 63vw, 940px" width="2000" height="1335" loading="lazy" decoding="async"
+              alt="两人拖着彩色滑沙板走上金黄的沙丘，在坡面投下长影">
+          </a>
+          <figcaption>向沙丘上走</figcaption>
+        </figure>
+        <figure class="work work-tall">
+          <a class="photo-link" href="assets/photos/grassland.webp" data-title="草原一隅" aria-label="放大观看：草原一隅">
+            <img src="assets/photos/grassland-small.webp"
+              srcset="assets/photos/grassland-small.webp 655w, assets/photos/grassland.webp 1080w"
+              sizes="(max-width: 690px) 46vw, (max-width: 1540px) 31vw, 460px" width="1080" height="1616" loading="lazy" decoding="async"
+              alt="秋草覆盖起伏的原野，一簇绿树立在蓝天白云下">
+          </a>
+          <figcaption>草原一隅</figcaption>
+        </figure>
+        <figure class="work work-tall">
+          <a class="photo-link" href="assets/photos/lakeshore.webp" data-title="湖畔行人" aria-label="放大观看：湖畔行人">
+            <img src="assets/photos/lakeshore-small.webp"
+              srcset="assets/photos/lakeshore-small.webp 784w, assets/photos/lakeshore.webp 1600w"
+              sizes="(max-width: 690px) 46vw, (max-width: 1540px) 31vw, 460px" width="1600" height="2000" loading="lazy" decoding="async"
+              alt="一个人走过湖岸的草地，蓝色湖水和风车横贯远方">
+          </a>
+          <figcaption>湖畔行人</figcaption>
+        </figure>
+        <figure class="work work-tall work-centered">
+          <a class="photo-link" href="assets/photos/pasture-goats.webp" data-title="原野牧歌" aria-label="放大观看：原野牧歌">
+            <img src="assets/photos/pasture-goats-small.webp"
+              srcset="assets/photos/pasture-goats-small.webp 654w, assets/photos/pasture-goats.webp 1334w"
+              sizes="(max-width: 690px) min(94vw, 380px), (max-width: 1540px) 31vw, 460px" width="1334" height="2000" loading="lazy" decoding="async"
+              alt="几只白色山羊聚在草地上，阳光照亮它们的长毛">
+          </a>
+          <figcaption>原野牧歌</figcaption>
+        </figure>
+        <figure class="work work-half">
+          <a class="photo-link" href="assets/photos/clouds-over-steppe.webp" data-title="云下旷野" aria-label="放大观看：云下旷野">
+            <img src="assets/photos/clouds-over-steppe-small.webp"
+              srcset="assets/photos/clouds-over-steppe-small.webp 980w, assets/photos/clouds-over-steppe.webp 2000w"
+              sizes="(max-width: 690px) 94vw, (max-width: 1540px) 47vw, 704px" width="2000" height="1334" loading="lazy" decoding="async"
+              alt="厚重的灰蓝色云层下，枯草和低矮的丘陵延伸至天际">
+          </a>
+          <figcaption>云下旷野</figcaption>
+        </figure>
+        <figure class="work work-half">
+          <a class="photo-link" href="assets/photos/sunset.webp" data-title="落日原野" aria-label="放大观看：落日原野">
+            <img src="assets/photos/sunset-small.webp"
+              srcset="assets/photos/sunset-small.webp 980w, assets/photos/sunset.webp 1616w"
+              sizes="(max-width: 690px) 94vw, (max-width: 1540px) 47vw, 704px" width="1616" height="1080" loading="lazy" decoding="async"
+              alt="落日贴近远山的轮廓，近处的岩石和原野沉入暮色">
+          </a>
+          <figcaption>落日原野</figcaption>
+        </figure>
+      </div>
     </section>
+  </main>
 
-    <footer>
-        <p>© 2026 徐泽宇 Zeyu Xu. All rights reserved.</p>
-        <div class="social-links">
-            <a href="https://github.com/zeyu-rocket" target="_blank">GitHub</a>
-            <a href="https://space.bilibili.com/40687335" target="_blank">Bilibili</a>
-            <a href="mailto:zeyu.xu.work@qq.com">Email</a>
-        </div>
-    </footer>
+  <footer class="site-footer wrap">
+    <small>© 徐泽宇 <span lang="en">Zeyu Xu</span></small>
+    <a href="mailto:zeyu.xu.work@qq.com">联系</a>
+  </footer>
+
+  <dialog class="viewer" aria-label="摄影作品大图">
+    <div class="viewer-inner">
+      <button class="viewer-close" type="button" aria-label="关闭大图">×</button>
+      <button class="viewer-prev" type="button" aria-label="上一张">‹</button>
+      <figure class="viewer-figure">
+        <img class="viewer-image" alt="">
+        <figcaption class="viewer-caption" aria-live="polite"></figcaption>
+      </figure>
+      <button class="viewer-next" type="button" aria-label="下一张">›</button>
+    </div>
+  </dialog>
 </body>
 </html>
