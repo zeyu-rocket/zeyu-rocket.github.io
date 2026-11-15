@@ -21,7 +21,7 @@ body {
 
 a { color: inherit; text-decoration: none; }
 a:focus-visible, button:focus-visible { outline: 2px solid #967049; outline-offset: 5px; }
-figure, h1 { margin: 0; }
+figure, h1, h2 { margin: 0; }
 
 .wrap {
   width: min(1440px, calc(100% - var(--gutter) * 2));
@@ -130,12 +130,12 @@ h1 {
 }
 
 .work-wide { grid-column: span 4; }
-.work-tall { grid-column: span 2; }
+.work-tall, .work-third { grid-column: span 2; }
 .work-half { grid-column: span 3; }
 
 .work .photo-link { display: block; overflow: hidden; background: #e9e6de; }
 .work img { width: 100%; height: clamp(260px, 41vw, 580px); display: block; object-fit: cover; }
-.work-half img { height: auto; aspect-ratio: 1.5; }
+.work-half img, .work-third img { height: auto; aspect-ratio: 1.5; }
 .work img { transition: transform .35s ease; }
 .work .photo-link:hover img, .work .photo-link:focus-visible img { transform: scale(1.025); }
 
@@ -144,6 +144,18 @@ h1 {
   font: 600 19px/1.35 var(--serif);
   letter-spacing: .01em;
 }
+
+.nature-studies {
+  margin-bottom: clamp(60px, 9vw, 136px);
+}
+
+.nature-studies h2 {
+  font: 600 clamp(27px, 3vw, 42px)/1.15 var(--serif);
+  letter-spacing: .01em;
+}
+
+.work-detail { max-width: 430px; }
+.work-detail img { height: auto; }
 
 .site-footer {
   display: flex;
@@ -231,7 +243,7 @@ body:has(.viewer[open]) { overflow: hidden; }
   .cover-link { height: clamp(300px, 53svh, 480px); }
   .cover img { object-position: center; }
   .gallery-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .work-wide, .work-half { grid-column: span 2; }
+  .work-wide, .work-half, .work-third { grid-column: span 2; }
   .work-tall { grid-column: span 1; }
   .work img { height: auto; }
   .work-tall img { aspect-ratio: 2 / 3; }
